@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calcuAppV2.MainPage">
+
+    <ContentPage.Content>
+        
+            <Grid BackgroundColor="Black" RowSpacing="1.5" ColumnSpacing="1.5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="2.2*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Grid.ColumnSpan="4" Text="0" HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="End" 
+                       VerticalTextAlignment="End"
+                       FontSize="Header"
+                       VerticalOptions="FillAndExpand"
+                       BackgroundColor="#2C2D2D" 
+                       TextColor="White"
+                       />
+                <Button Grid.Row="1" Text="C" FontSize="Title" Grid.Column="0" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="1" Text="+/-" FontSize="Title" Grid.Column="1" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="1" Text="%" FontSize="Title" Grid.Column="2" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="1" Text="DIV" FontSize="Title" Grid.Column="3" BackgroundColor="#F1C40F" TextColor="White" FontAttributes="Bold"/>
+                <Button Grid.Row="2" Text="7" FontSize="Title" Grid.Column="0" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="2" Text="8" FontSize="Title" Grid.Column="1" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="2" Text="9" FontSize="Title" Grid.Column="2" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="2" Text="X" FontSize="Title" Grid.Column="3" BackgroundColor="#F1C40F" TextColor="White" FontAttributes="Bold"/>
+                <Button Grid.Row="3" Text="4" FontSize="Title" Grid.Column="2" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="3" Text="5" FontSize="Title" Grid.Column="0" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="3" Text="6" FontSize="Title" Grid.Column="1" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="3" Text="-" FontSize="Title" Grid.Column="3" BackgroundColor="#F1C40F" TextColor="White" FontAttributes="Bold"/>
+                <Button Grid.Row="4" Text="1" FontSize="Title" Grid.Column="2" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="4" Text="2" FontSize="Title" Grid.Column="0" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="4" Text="3" FontSize="Title" Grid.Column="1" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                <Button Grid.Row="4" Text="+" FontSize="Title" Grid.Column="3" BackgroundColor="#F1C40F" TextColor="White" FontAttributes="Bold"/>
+
+                <Button Grid.Row="5" Text="." FontSize="Title" Grid.Column="2" BackgroundColor="LightGray" FontAttributes="Bold"/>
+            <Button Grid.Row="5" Text="0" FontSize="Title" Grid.ColumnSpan="2" Grid.Column="0" BackgroundColor="LightGray" FontAttributes="Bold"/>
+            <Button Grid.Row="5" Text="=" FontSize="Title" Grid.Column="3" BackgroundColor="#F1C40F" TextColor="White" FontAttributes="Bold"/>
+
+            </Grid>
+            
+        
+    </ContentPage.Content>
+
+</ContentPage>
